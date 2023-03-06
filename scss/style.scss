@@ -1,10 +1,7 @@
 // Default
 @import "_reset.scss";
 @import "_var.scss";
-@import "_accordion.scss";
 @import "_slider.scss";
-@import "_popup.scss";
-@import "_form.scss";
 @import "_tabs.scss";
 
 //Block global
@@ -21,12 +18,17 @@
    max-width: $containerWidth;
    margin: 0 auto;
    padding: 0 20px;
+   color: $primary;
 
    font-family: 'Open Sans', sans-serif;
 
    // min-height: 100%;
    overflow: clip;
    z-index: 2;
+}
+
+body {
+   background: #110929;
 }
 
 body.lock {

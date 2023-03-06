@@ -1,5 +1,5 @@
 // Breakpoint & Container
-$containerWidth: 1080 + px;
+$containerWidth: 1200 + px;
 $breakpoint1200: 1199.98 + px;
 $breakpoint1024: 1023.98 + px;
 $breakpoint930: 929.98 + px;
@@ -7,22 +7,20 @@ $breakpoint768: 767.98 + px;
 $breakpoint480: 479.98 + px;
 
 // Colors 
-$titleColor: #333;
-$subtitleColor : #333;
-$buttonColor : #FCDB5A;
-$buttonColorHover : #eece4f;
-$textColor: #666;
-$textPrimeryColor: #B3B3B3;
-$primary: #FAF9FA;
+$titleColor: #fff;
+$subtitleColor : #fff;
+$buttonColor : linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%); /* gradient */
+$buttonColorHover : #39324D;
+$textColor: #fff;
+$primary: #fff;
 $secondary: #2962EF;
 $blueDark: #1046ce;
-$footerColor: #c2c2c2;
+$footerColor: #999;
 $inputHover: #00920ffd;
+$priceColor: #6AD38F;
 $buttonColorHover: #1046ce;
 
-$textPrimeryColor: #B3B3B3;
-$footerColor: #fff;
-$inputHover: #00920ffd;
+$textPrimeryColor: #fff;
 $heroTitle: #fff;
 
 
@@ -32,7 +30,7 @@ $heroTitle: #fff;
 }
 
 ._title {
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Inter', sans-serif;
    font-style: normal;
    font-weight: 900;
    font-size: 40px;
@@ -42,7 +40,7 @@ $heroTitle: #fff;
 }
 
 ._subtitle {
-   font-family: 'Raleway', sans-serif;   
+   font-family: 'Inter', sans-serif;   
    font-style: normal;
    font-weight: 300;
    font-size: 40px;
@@ -53,14 +51,14 @@ $heroTitle: #fff;
 
 // Button
 ._button {
-   font-family: 'Raleway', sans-serif;
+   font-family: 'Inter', sans-serif;
    font-style: normal;
    font-weight: 600;
    font-size: 13px;
    line-height: 13px;
    text-transform: uppercase;
 
-   background: transparent;
+   background: $buttonColor;
    border: 2px solid $buttonColor;
    border-radius: 30px;
    padding: 26px 58px;
@@ -68,7 +66,7 @@ $heroTitle: #fff;
    transition: all .3s ease-in;
 
    &:hover {
-      background: $buttonColor;
+      background: $buttonColorHover;
    }
 }
 
@@ -81,7 +79,7 @@ $heroTitle: #fff;
    color: #fff;
 }
 ._button-dark {
-   color: #4F4A37;
+   color: $buttonColorHover;
 }
 ._button-yellow {
    color: #FCDB5A;
