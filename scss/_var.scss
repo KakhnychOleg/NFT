@@ -1,0 +1,89 @@
+// Breakpoint & Container
+$containerWidth: 1080 + px;
+$breakpoint1200: 1199.98 + px;
+$breakpoint1024: 1023.98 + px;
+$breakpoint930: 929.98 + px;
+$breakpoint768: 767.98 + px;
+$breakpoint480: 479.98 + px;
+
+// Colors 
+$titleColor: #333;
+$subtitleColor : #333;
+$buttonColor : #FCDB5A;
+$buttonColorHover : #eece4f;
+$textColor: #666;
+$textPrimeryColor: #B3B3B3;
+$primary: #FAF9FA;
+$secondary: #2962EF;
+$blueDark: #1046ce;
+$footerColor: #c2c2c2;
+$inputHover: #00920ffd;
+$buttonColorHover: #1046ce;
+
+$textPrimeryColor: #B3B3B3;
+$footerColor: #fff;
+$inputHover: #00920ffd;
+$heroTitle: #fff;
+
+
+// _Class
+._text-center {
+   text-align: center;
+}
+
+._title {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 44px;
+   text-transform: uppercase;
+   color: $titleColor;
+}
+
+._subtitle {
+   font-family: 'Raleway', sans-serif;   
+   font-style: normal;
+   font-weight: 300;
+   font-size: 40px;
+   line-height: 44px;
+   text-transform: uppercase;
+   color: $subtitleColor;
+}
+
+// Button
+._button {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 13px;
+   line-height: 13px;
+   text-transform: uppercase;
+
+   background: transparent;
+   border: 2px solid $buttonColor;
+   border-radius: 30px;
+   padding: 26px 58px;
+
+   transition: all .3s ease-in;
+
+   &:hover {
+      background: $buttonColor;
+   }
+}
+
+._button-center {
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+}
+._button-white {
+   color: #fff;
+}
+._button-dark {
+   color: #4F4A37;
+}
+._button-yellow {
+   color: #FCDB5A;
+}
+
