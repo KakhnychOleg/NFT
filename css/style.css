@@ -88,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 13px;
   text-transform: uppercase;
   background: linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
-  border: 2px solid linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
   border-radius: 30px;
   padding: 26px 58px;
   transition: all 0.3s ease-in;
@@ -300,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
 }
 .menu__item:last-child {
-  background: #1046ce;
+  background: linear-gradient(112.62deg, #8D1CFE 29.4%, #0038ED 105.15%);
   border-radius: 15px;
   padding: 10px 20px;
   color: #fff;
