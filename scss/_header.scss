@@ -1,6 +1,6 @@
 // -----------------------
 [class*="header__container"] {
-   max-width: 1200px;
+   max-width: $containerWidth;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;
@@ -10,7 +10,7 @@
    // position: fixed;
    // top: 0;
    // left: 0;
-   position: absolute;
+   position: relative;
    left: 0;
    width: 100%;
    z-index: 50;
