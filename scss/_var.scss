@@ -44,7 +44,7 @@ $heroTitle: #fff;
    font-weight: 700;
    font-size: 48px;
    line-height: 58px;
-   
+
    letter-spacing: -0.02em;
    
    color: $primary;   
@@ -67,6 +67,8 @@ $heroTitle: #fff;
    font-weight: 400;
    font-size: 16px;
    line-height: 16px;
+
+   color: $primary;
    z-index: 5;
    // text-transform: uppercase;
 
@@ -92,13 +94,7 @@ $heroTitle: #fff;
    justify-content: center;
    margin: 0 auto;
 }
-._button-white {
-   color: #fff;
-}
 ._button-dark {
    color: $buttonColorHover;
-}
-._button-yellow {
-   color: #FCDB5A;
 }
 
